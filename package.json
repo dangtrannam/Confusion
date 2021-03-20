@@ -1,12 +1,12 @@
 {
-  "name": "3.-assignement_w1",
-  "version": "1.0.0",
-  "description": "",
+  "name": "confusion",
+  "version": "0.1.0",
+  "description": "confusion website made with boostrap",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Dang Tran Nam",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^4.5.3",
@@ -14,5 +14,13 @@
     "font-awesome": "^4.7.0",
     "jquery": "^3.5.1",
     "popper.js": "^1.12.9"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dangtrannam/Confusion.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dangtrannam/Confusion/issues"
+  },
+  "homepage": "https://github.com/dangtrannam/Confusion#readme"
 }
