@@ -11,6 +11,18 @@ $carousel-item-height: 300px;
 	padding: $pad-up-dn $pad-left-right;
 }
 
+.modal-style {
+    .modal-header{
+        background-color: $background-dark;
+        color: white;
+        .close{
+            color: white;
+        }
+    }
+    .modal-body{
+        background-color: $background-pale;
+    }
+}
 .row-header{
     @include zero-margin(0px,0px);
 }
@@ -73,4 +85,14 @@ body{
     position: absolute;
     bottom: 0px;
     z-index: 1;
+}
+
+
+
+#reserveModal{
+    @extend .modal-style;
+}
+
+#loginModal{
+    @extend .modal-style;
 }
