@@ -4,7 +4,8 @@
   "description": "confusion website made with boostrap",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass -o css/ css/"
   },
   "author": "Dang Tran Nam",
   "license": "ISC",
@@ -22,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/dangtrannam/Confusion/issues"
   },
-  "homepage": "https://github.com/dangtrannam/Confusion#readme"
+  "homepage": "https://github.com/dangtrannam/Confusion#readme",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
 }
