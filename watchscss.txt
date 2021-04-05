@@ -1,0 +1,6 @@
+// Windows
+    "watch:scss": "onchange \"css/*.scss\" -- npm run scss",
+    "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\""
+    //Macos
+     "watch:scss": "onchange 'css/*.scss' -- npm run scss",
+     "watch:all": "parallelshell 'npm run watch:scss' 'npm run lite'"
