@@ -1,12 +1,3 @@
-.modal-style .modal-header, #reserveModal .modal-header, #loginModal .modal-header {
-  background-color: #512DA8;
-  color: white; }
-  .modal-style .modal-header .close, #reserveModal .modal-header .close, #loginModal .modal-header .close {
-    color: white; }
-
-.modal-style .modal-body, #reserveModal .modal-body, #loginModal .modal-body {
-  background-color: #D1C4E9; }
-
 .row-header {
   margin: 0px auto;
   padding: 0px 0px; }
@@ -61,3 +52,14 @@ body {
   position: absolute;
   bottom: 0px;
   z-index: 1; }
+
+.modal-style .modal-header, #reserveModal .modal-header, #loginModal .modal-header {
+  background-color: #512DA8;
+  color: white; }
+  .modal-style .modal-header .close, #reserveModal .modal-header .close, #loginModal .modal-header .close {
+    color: white; }
+
+.modal-style .modal-body, #reserveModal .modal-body, #loginModal .modal-body {
+  background-color: #D1C4E9; }
+
+/*# sourceMappingURL=styles.css.map */
